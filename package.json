@@ -1,6 +1,6 @@
 {
   "name": "@cuties/spawn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cutie extension for spawning command.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,9 @@
     "url": "https://github.com/Guseyn/cutie-spawn/issues"
   },
   "homepage": "https://github.com/Guseyn/cutie-spawn#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@cuties/assert": "^1.2.0",
     "@cuties/cutie": "^1.7.0",
