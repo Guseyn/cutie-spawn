@@ -7,8 +7,8 @@ module.exports = (command, args, options, callback) => {
   let callbackInvoked = false
   spawnedCommand.on('error', (error) => {
     callbackInvoked = true
-    callback(error)
     spawnedCommand.emit('exit')
+    callback(error)
   })
   spawnedCommand.on('exit', (code) => {
     if (!callbackInvoked) {
