@@ -1,6 +1,4 @@
 # cutie-spawn
-Cutie extension for spawning command.
-
 
 [![NPM Version](https://img.shields.io/npm/v/@cuties/spawn.svg)](https://npmjs.org/package/@cuties/spawn)
 [![Build Status](https://travis-ci.org/Guseyn/cutie-spawn.svg?branch=master)](https://travis-ci.org/Guseyn/cutie-spawn)
@@ -25,7 +23,7 @@ Cutie extension for spawning command.
 ```js
 // Represented result is command
 SpawnedCommand(
-	command[, args][, options]
+  command[, args][, options]
 ).call()
 
 ```
