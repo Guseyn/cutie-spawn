@@ -1,7 +1,7 @@
 'use strict'
 
 const { AsyncObject } = require('@cuties/cutie')
-const spawnedCommand = require('./custom-calls/spawnedCommand')
+const spawnCommand = require('./custom-calls/spawnCommand')
 
 // Represented result is process
 class SpawnedCommand extends AsyncObject {
@@ -12,7 +12,7 @@ class SpawnedCommand extends AsyncObject {
   }
 
   asyncCall () {
-    return spawnedCommand
+    return spawnCommand
   }
 }
 
