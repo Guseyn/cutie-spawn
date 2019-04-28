@@ -21,8 +21,10 @@
 ## Usage
 
 ```js
+const { SpawnedCommand } = require('@cuties/spawn')
+
 // Represented result is command
-SpawnedCommand(
+new SpawnedCommand(
   command[, args][, options]
 ).call()
 
